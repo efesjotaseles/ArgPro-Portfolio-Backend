@@ -1,9 +1,9 @@
 package com.portfoliobackend.portfoliobackend.repository;
 
-import com.portfoliobackend.portfoliobackend.model.AcercaDe;
+import com.portfoliobackend.portfoliobackend.model.Estudio;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface AcercaDeRepository extends JpaRepository<AcercaDe,Long> {
+public interface EstudioRepository extends JpaRepository<Estudio,Long> {
 }
