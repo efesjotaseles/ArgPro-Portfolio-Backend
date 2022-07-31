@@ -65,7 +65,7 @@ public class portfolioController {
 
     @GetMapping("/acercade")
     public AcercaDe acercaDe(){
-        return acercaDeService.findAcercaDe(0L);
+        return acercaDeService.findAcercaDe(1L);
     }
 
     @PostMapping("acercade/alta")
